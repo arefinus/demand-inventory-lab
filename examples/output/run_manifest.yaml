@@ -1,0 +1,25 @@
+schema_version: 1
+project_id: demand-inventory-lab
+run_id: 20260928T104032Z-demo
+status: completed
+mode: demo
+evidence_status: demo
+git_commit: null
+data:
+  source_id: synthetic-fixture-v1
+  version: v1
+  split_manifest_hash: e44f1ae2517d41b6a053fc16715c2408a731c74efbb65c46aba2d36d059c5353
+  sku_fixture_hash: cf3e48506482f7f3b462f3e85a13d9c2c77e7ed94fc71481ac5a7921c5a8350c
+  sample_counts:
+    mrts_rows: 360
+    sku_rows: 2496
+configuration_hash: 0b22296adc262b7d6fd7ae4a6f76745567fa23dde1190eaf629f6ec6140ea6bd7a7244ab
+seed: 42
+environment:
+  python: 3.10.11
+  device: cpu
+metrics_file: examples/output/backtest_summary.json
+predictions_file: examples/output/forecast.json
+started_at: '2026-09-28T10:40:32+00:00'
+finished_at: '2026-09-28T10:42:03+00:00'
+notes: []

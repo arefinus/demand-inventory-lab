@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demand-inventory-lab"
+version = "0.1.0"
+description = "Demand forecasting baselines with rolling-origin backtests and a synthetic replenishment simulator for service level and holding cost trade-offs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Md Sultanul Arefin Sourav" }]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.5,<2",
+  "statsmodels>=0.14,<1",
+  "pyyaml>=6",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+demand-inventory-lab = "demand_inventory_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+  "ignore::FutureWarning",
+  "ignore::UserWarning",
+]

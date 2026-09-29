@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="720" height="400" fill="#ffffff"/>
+<text x="70" y="22" font-size="15" font-weight="bold" fill="#1a202c">Forecast with 80% empirical intervals: lag_gbm</text>
+<text x="70" y="34" font-size="11" fill="#718096">Computed by `make demo` on synthetic fixture v1, seed 42. Not a benchmark result.</text>
+<line x1="70" y1="40" x2="70" y2="345" stroke="#4a5568"/>
+<line x1="70" y1="345" x2="700" y2="345" stroke="#4a5568"/>
+<text x="385.0" y="388" text-anchor="middle" fill="#4a5568">month (last 24 observed, then forecast steps)</text>
+<text x="16" y="192.5" text-anchor="middle" fill="#4a5568" transform="rotate(-90 16 192.5)">value (abstract units)</text>
+<line x1="66" y1="345.0" x2="700" y2="345.0" stroke="#e2e8f0"/>
+<text x="62" y="349.0" text-anchor="end" fill="#4a5568">11664</text>
+<line x1="66" y1="284.0" x2="700" y2="284.0" stroke="#e2e8f0"/>
+<text x="62" y="288.0" text-anchor="end" fill="#4a5568">13340</text>
+<line x1="66" y1="223.0" x2="700" y2="223.0" stroke="#e2e8f0"/>
+<text x="62" y="227.0" text-anchor="end" fill="#4a5568">15016</text>
+<line x1="66" y1="162.0" x2="700" y2="162.0" stroke="#e2e8f0"/>
+<text x="62" y="166.0" text-anchor="end" fill="#4a5568">16692</text>
+<line x1="66" y1="101.0" x2="700" y2="101.0" stroke="#e2e8f0"/>
+<text x="62" y="105.0" text-anchor="end" fill="#4a5568">18369</text>
+<line x1="66" y1="40.0" x2="700" y2="40.0" stroke="#e2e8f0"/>
+<text x="62" y="44.0" text-anchor="end" fill="#4a5568">20045</text>
+<line x1="70.0" y1="345" x2="70.0" y2="349" stroke="#4a5568"/>
+<text x="70.0" y="362" text-anchor="middle" fill="#4a5568">2024-01</text>
+<line x1="200.3" y1="345" x2="200.3" y2="349" stroke="#4a5568"/>
+<text x="200.3" y="362" text-anchor="middle" fill="#4a5568">2024-07</text>
+<line x1="330.7" y1="345" x2="330.7" y2="349" stroke="#4a5568"/>
+<text x="330.7" y="362" text-anchor="middle" fill="#4a5568">2025-01</text>
+<line x1="461.0" y1="345" x2="461.0" y2="349" stroke="#4a5568"/>
+<text x="461.0" y="362" text-anchor="middle" fill="#4a5568">2025-07</text>
+<line x1="591.4" y1="345" x2="591.4" y2="349" stroke="#4a5568"/>
+<text x="591.4" y="362" text-anchor="middle" fill="#4a5568">2026-01</text>
+<polyline points="70.0,319.6 91.7,278.3 113.4,205.0 135.2,176.5 156.9,128.9 178.6,80.5 200.3,125.2 222.1,140.3 243.8,219.1 265.5,256.1 287.2,302.8 309.0,255.6 330.7,274.6 352.4,274.8 374.1,187.2 395.9,137.0 417.6,113.7 439.3,115.8 461.0,97.0 482.8,145.2 504.5,182.0 526.2,236.9 547.9,250.7 569.7,238.4" fill="none" stroke="#2b6cb0" stroke-width="2.0"/>
+<polygon points="591.4,248.8 613.1,237.8 634.8,158.0 656.6,105.8 678.3,65.4 700.0,67.4 700.0,108.7 678.3,112.3 656.6,146.0 634.8,199.3 613.1,284.8 591.4,290.3" fill="#c05621" fill-opacity="0.25" stroke="none"/>
+<polyline points="591.4,269.2 613.1,265.0 634.8,175.3 656.6,124.8 678.3,88.5 700.0,88.0" fill="none" stroke="#c05621" stroke-width="2.0" stroke-dasharray="5,3"/>
+<rect x="80" y="40" width="12" height="10" fill="#2b6cb0"/>
+<text x="98" y="49" fill="#2d3748">observed</text>
+<rect x="80" y="56" width="12" height="10" fill="#c05621"/>
+<text x="98" y="65" fill="#2d3748">forecast (80% band)</text>
+</svg>

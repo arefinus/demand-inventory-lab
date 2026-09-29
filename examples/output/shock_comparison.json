@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "mode": "synthetic-demo",
+  "policy": {
+    "reorder_point": 120,
+    "order_up_to": 240,
+    "review_period": 1
+  },
+  "lead_time": {
+    "fixed": 1,
+    "distribution": null
+  },
+  "shock": {
+    "start": 60,
+    "end": 68,
+    "multiplier": 1.5
+  },
+  "baseline": {
+    "units_demanded": 7291,
+    "units_filled": 6624,
+    "fill_rate": 0.9085173501577287,
+    "stockout_periods": 19,
+    "period_service_level": 0.8173076923076923,
+    "order_count": 41,
+    "holding_cost": 370.95,
+    "ordering_cost": 2050.0,
+    "stockout_cost": 2668.0,
+    "total_cost": 5088.95
+  },
+  "shocked": {
+    "units_demanded": 7678,
+    "units_filled": 6729,
+    "fill_rate": 0.8764001041938004,
+    "stockout_periods": 20,
+    "period_service_level": 0.8076923076923077,
+    "order_count": 41,
+    "holding_cost": 363.45,
+    "ordering_cost": 2050.0,
+    "stockout_cost": 3796.0,
+    "total_cost": 6209.45
+  }
+}

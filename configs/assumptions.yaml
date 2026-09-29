@@ -1,0 +1,12 @@
+# Cost and service assumptions for the replenishment simulator.
+# All values are fictional demonstration parameters in abstract currency units.
+# They are not calibrated to any company, product or market.
+schema_version: 1
+currency_note: "abstract currency units; fictional"
+unit_cost: 10.0                    # purchase cost per unit
+holding_rate_per_period: 0.005     # fraction of unit_cost charged per unit held per period (weekly periods)
+order_cost: 50.0                   # fixed cost per replenishment order placed
+stockout_penalty_per_unit: 4.0     # penalty per unit of unmet demand (lost margin proxy)
+unmet_demand: lost_sales           # lost_sales | backorder
+initial_on_hand_policy: order_up_to  # start each run with on_hand = S (order-up-to level)
+period_unit: week

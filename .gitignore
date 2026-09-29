@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.census_cache/
+examples/output/smoke/
+.venv/
+venv/
+.env
+runs/
+.smoke_output/
+.scratch/
